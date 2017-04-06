@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<xml>
+    <programma>
+        <stylesheet>templates/tmplt2.css</stylesheet>
+        <type>backup</type>
+        <title>
+            <heading1>THE FRIDAY MOVE</heading1>
+            <heading2>WILFRED GENEE</heading2>
+        </title>
+
+        <subtitle>
+            <shot1-heading1>NU TOT 3:00u</shot1-heading1>
+            <shot2-heading1>DE VLIJMSCHERPE</shot2-heading1>
+            <shot1-heading2>DE VLIJMSCHERPE</shot1-heading2>
+            <shot2-heading2>VRIJDAGMIDDAGBORREL</shot2-heading2>
+        </subtitle>
+
+        <background>
+            <background-sheet1>http://www.bnr.doohlive.nl/images/Bg.png</background-sheet1>
+            <background-sheet2>http://www.bnr.doohlive.nl/images/Bg.png</background-sheet2>
+        </background>
+
+        <logo>http://www.bnr.doohlive.nl/images/logo.png</logo>
+        <transparency>rgba(255,255,255,0)</transparency>
+    </programma>
+</xml>

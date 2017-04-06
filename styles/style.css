@@ -1,0 +1,339 @@
+@font-face {
+		font-family: 'FuturaStd-Bold';
+		src: url('../fonts/FuturaStd-Bold.woff') format('woff'),
+			 url('../fonts/FuturaStd-Bold.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	
+	}
+	body, p {
+		padding: 0;
+		margin: 0;
+	}
+	#banner {
+		position: relative;
+		width: 1280px;
+		height: 768px;
+		overflow: hidden;
+		opacity: 0;
+		background-image: url(../images/bg.jpg);
+		background-repeat: no-repeat;
+		background-size:cover;
+		background-position: center center;
+		font-family: 'FuturaStd-Bold';
+		
+	}
+	#banner:hover{cursor:pointer}
+	
+	#logo, #headline_1, #headline_1b, #headline_2, #headline_3, #station, #bottom_line, #title, #title-panel, #custom_background, #overlay, #head_1, #head_1b, #head_2, #head_3,
+	#headline_1_backup, #headline_2_backup, #headline_3_backup, #headline_4_backup, #headline_5_backup, #headline_6_backup,
+	#head_1_backup, #head_2_backup, #head_3_backup, #head_4_backup, #head_5_backup, #head_6_backup, #phone, #cta, #content, #backup {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	#backup, #content {
+		width: 1280px;
+		height: 768px;
+		visibility: hidden;
+	}
+	#custom_background, #overlay {
+		width: 1280px;
+		height: 768px;
+		background-repeat: no-repeat;
+		background-size:cover;
+		background-position: center center;
+	}
+	#logo {
+		left: 228px;
+		top: 268px;
+	}
+	
+	#head_1 {
+		left: -50px;
+		top: 70px;
+	}
+	#headline_1 {
+		display: block;
+		background-color: rgba(253, 210, 0, .9);
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		overflow: hidden;
+		font-size: 74px;
+		color: #000;
+		opacity: 1;
+		padding-left: 40px;
+		text-align: left;
+	}
+	#headline_1 #text {
+
+		padding: 8px 30px 4px 50px;
+		white-space:nowrap;
+	}
+	
+	
+	#head_1b {
+		left: -50px;
+		top: 190px;
+		visibility: hidden;
+	}
+	#headline_1b {	
+		background-color: rgba(253, 210, 0, .9);
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		overflow: hidden;
+		font-size: 74px;
+		color: #000;
+		text-align: left;
+		padding-left: 40px;
+	}
+	#headline_1b #text {
+		padding: 6px 30px 2px 50px;
+		white-space:nowrap;
+	}
+	
+	
+	
+	#head_2 {
+		left: -50px;
+		top: 70px;
+	}
+	#headline_2 {
+		background-color: rgba(253, 210, 0, .9);
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		overflow: hidden;
+		font-size: 74px;
+		color: #000;
+		text-align: left;
+		padding-left: 40px;
+	}
+	#headline_2 #text {
+		padding: 6px 30px 2px 50px;
+		white-space:nowrap;
+	}
+	
+	#head_3 {
+		left: -50px;
+		top: 190px;
+	}
+	#headline_3 {
+		background-color: rgba(253, 210, 0, .9);
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		overflow: hidden;
+		font-size: 74px;
+		color: #000;
+		text-align: left;
+		padding-left: 40px;
+	}
+	#headline_3 #text {
+		padding: 6px 30px 2px 50px;
+		white-space:nowrap;
+	}
+	
+	#station {
+		left: 55px;
+		top: 630px;
+		background-color: rgba(228, 39, 38, 1);
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		overflow: hidden;
+		font-size: 46px;
+		color: #fff;
+		opacity: 1;
+	}
+	#station #text {
+		padding: 4px 6px 0px 6px;
+		white-space:nowrap;
+	}
+	
+	#bottom_line {
+		left: 55px;
+		top:710px;
+		width: 350px;
+		height: 26px;
+		overflow:hidden;
+	}
+	#title-panel {
+		width: 100%;
+		height: 420px;
+		top: 165px;
+		overflow: hidden;
+	}
+	#title {
+		font-size: 95px;
+		line-height: 1.05;
+		left: 55px;
+		top: 42px;
+		width: 1200px;
+		height: 100px;
+		text-transform: uppercase;
+		white-space:nowrap;
+	}
+	
+	
+	/************** BACKUP ******************/
+	#phone {
+		left: 850px;
+		top: 56px;
+	}
+	
+	#head_1_backup {
+		left: 68px;
+		top: 66px;
+	}
+	#headline_1_backup {
+		background-color: rgba(253, 210, 0, .9);
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		overflow: hidden;
+		font-size: 74px;
+		line-height: 100px;
+		color: #000;
+		opacity: 1;
+
+		text-align: center;
+	}
+	#headline_1_backup #text {
+		width: 185px;
+		height: 94px;
+		white-space:nowrap;
+	}
+	
+	#head_2_backup {
+		left: 68px;
+		top: 186px;
+	}
+	#headline_2_backup {
+		background-color: rgba(253, 210, 0, .9);
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		overflow: hidden;
+		font-size: 74px;
+		line-height: 100px;
+		color: #000;
+		opacity: 1;
+
+		text-align: center;
+	}
+	#headline_2_backup #text {
+		width: 650px;
+		height: 94px;
+		white-space:nowrap;
+	}
+	
+	
+	#head_3_backup {
+		left: 68px;
+		top: 304px;
+	}
+	#headline_3_backup {
+		background-color: rgba(253, 210, 0, .9);
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		overflow: hidden;
+		font-size: 74px;
+		line-height: 100px;
+		color: #000;
+		opacity: 1;
+
+		text-align: center;
+	}
+	#headline_3_backup #text {
+		width: 475px;
+		height: 94px;
+		white-space:nowrap;
+	}
+	
+	
+	#head_4_backup {
+		left: 68px;
+		top: 422px;
+	}
+	#headline_4_backup {
+		background-color: rgba(253, 210, 0, .9);
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		overflow: hidden;
+		font-size: 74px;
+		line-height: 108px;
+		color: #000;
+		opacity: 1;
+
+		text-align: center;
+	}
+	#headline_4_backup #text {
+		width: 375px;
+		height: 94px;
+		white-space:nowrap;
+	}
+	
+	
+	#head_5_backup {
+		left: 64px;
+		top: 50px;
+	}
+	#headline_5_backup {
+		background-color: rgba(253, 210, 0, .9);
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		overflow: hidden;
+		font-size: 62px;
+		color: #000;
+		text-align: center;
+	}
+	#headline_5_backup #text {
+		width: 600px;
+		padding: 10px 0px 2px 0px;
+		white-space:nowrap;
+	}
+	
+	
+	#head_6_backup {
+		left: 64px;
+		top: 150px;
+	}
+	#headline_6_backup {
+		background-color: rgba(253, 210, 0, .9);
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		overflow: hidden;
+		font-size: 62px;
+		color: #000;
+		text-align: center;
+	}
+	#headline_6_backup #text {
+		width: 535px;
+		padding: 10px 0px 2px 0px;
+		white-space:nowrap;
+	}
+	
+	#cta {
+		left: 798px;
+		top: 666px;
+		background-color: rgba(228, 39, 38, 1);
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		overflow: hidden;
+		font-size: 38px;
+		color: #fff;
+		opacity: 1;
+	}
+	#cta #text {
+		padding: 10px 13px 5px 13px;
+		white-space:nowrap;
+	}
+	
